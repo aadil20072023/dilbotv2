@@ -1,3 +1,6 @@
+require("./scripts/setup-ytdlp");
+
+
 const {
   default: makeWASocket,
     useMultiFileAuthState,
