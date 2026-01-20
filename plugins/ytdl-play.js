@@ -29,7 +29,8 @@ cmd({
 
     const outFile = path.join(__dirname, `${Date.now()}.mp3`);
 
-    const command = `yt-dlp -f bestaudio --extract-audio --audio-format mp3 -o "${outFile}" "${url}"`;
+    const command = `./yt-dlp -f bestaudio --extract-audio --audio-format mp3 -o "${outFile}" "${url}"`;
+
 
     exec(command, async (err) => {
       if (err) {
