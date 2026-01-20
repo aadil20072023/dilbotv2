@@ -44,7 +44,7 @@ cmd({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363388320701164@newsletter',
+                newsletterJid: '120363421995169434@newsletter',
                 newsletterName: config.OWNER_NAME,
                 serverMessageId: 143
             }
