@@ -15,17 +15,17 @@ cmd({
         // Count total commands
         const totalCommands = Object.keys(commands).length;
         
-        const menuCaption = `╭━━━〔 *🧚‍♂️𝐒ᴇɴᴜ x 𝐁ᴏᴛ🧚‍♂️* 〕━━━┈⊷
-│ ✓ 𝐎ᴡɴᴇʀ : *Jester*
+        const menuCaption = `╭━━━〔 *DIL-BOT* 〕━━━┈⊷
+│ ✓ 𝐎ᴡɴᴇʀ : *Aadil by AGRAZE*
 │ ✓ 𝐁ᴀɪʟᴇʏꜱ : *Multi Device*
 │ ✓ 𝐓ʏᴘᴇ : *NodeJs*
 │ ✓ 𝐏ʟᴀᴛꜰᴏʀᴍ : *Heroku*
 │ ✓ 𝐌ᴏᴅᴇ : *[${config.MODE}]*
 │ ✓ 𝐏ʀᴇꜰɪx : *[${config.PREFIX}]*
-│ ✓ 𝐕ᴇʀꜱɪᴏɴ : *5.0.0 Bᴇᴛᴀ*
-│ ✓ 𝐂ᴏᴍᴍᴀɴᴅꜱ : *352*
+│ ✓ 𝐕ᴇʀꜱɪᴏɴ : *2.0.0*
+│ ✓ 𝐂ᴏᴍᴍᴀɴᴅꜱ : *&*
 ╰━━━━━━━━━━━━━━━┈⊷
-╭━━〔 *🧚‍♂️𝐒ᴇɴᴜ x -ᴍᴇɴᴜ🧚‍♂️*  ━┈⊷
+╭━━〔 *DIL-BOT*  ━┈⊷
 ││❯❯ 01 *𝐃ᴏᴡɴʟᴏᴀᴅ ᴍᴇɴᴜ*
 ││❯❯ 02 *𝐆ʀᴏᴜᴘ ᴍᴇɴᴜ*
 ││❯❯ 03 *𝐅ᴜɴ ᴍᴇɴᴜ*
@@ -56,7 +56,7 @@ cmd({
                 return await conn.sendMessage(
                     from,
                     {
-                        image: { url: config.MENU_IMAGE_URL || 'https://i.ibb.co/bjPrbF84/3174.jpg' },
+                        image: { url: config.MENU_IMAGE_URL || 'https://github.com/aadil20072023/dilbot/blob/main/images/welcome_dilbot.png?raw=true' },
                         caption: menuCaption,
                         contextInfo: contextInfo
                     },
