@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "0qRUFJYT#WUVe9Pk1pVhGtJyh6hhzPR6rytSQwVU20bCvu7TSB-U",
+SESSION_ID: process.env.SESSION_ID || "AqB0STjI#Efxnkfj7Sbbw8qKWRXVSaOvF9-_ps605s2tQ0hFyeyc",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -27,7 +27,7 @@ ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
-MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/ke8nul.jpg",
+MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://github.com/aadil20072023/dilbot/blob/main/images/welcome_dilbot.png?raw=true",
 // add custom menu and mention reply image url
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -47,7 +47,7 @@ OWNER_NAME: process.env.OWNER_NAME || "Aadil",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© Powered By AGRAZE*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/ke8nul.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://github.com/aadil20072023/dilbot/blob/main/images/welcome_dilbot.png?raw=true",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> I'm alive now *DIl-BOT*⚡",
 // add alive msg here 
