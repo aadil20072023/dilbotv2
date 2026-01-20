@@ -44,7 +44,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['94788770020']
+  const ownerNumber = ['94725023747']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -113,19 +113,19 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `╭─〔 *🤖 SENU-MD BOT* 〕  
+  let up = `╭─〔 *🤖 DIL-BOT* 〕  
 ├─▸ *Ultra Super Fast Powerfull ⚠️*  
-│     *World Best BOT SENU-MD* 
+│     *World Best BOT DIL-BOT* 
 ╰─➤ *Your Smart WhatsApp Bot is Ready To use 🍁!*  
 
-- *🖤 Thank You for Choosing SENU-MD!* 
+- *🖤 Thank You for Choosing DIL-BOT!* 
 
 ╭──〔 🔗 *Information* 〕  
 ├─ 🧩 *Prefix:* = ${prefix}
 ├─ 📢 *Join Channel:*  
-│    https://whatsapp.com/channel/0029Vb2OcviBFLgPzVjWhE0n  
+│    https://whatsapp.com/  
 ├─ 🌟 *Star the Repo:*  
-│    https://github.com/Jester36/SENU-MD  
+│    https://github.com/  
 ╰─🚀 *POWERED BY JESTER-OFC*`;
 
     conn.sendMessage(conn.user.id,{ image: { url: `https://i.ibb.co/RGLKzshm/SulaMd.jpg` }, caption: up })
