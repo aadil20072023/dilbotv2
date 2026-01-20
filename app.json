@@ -1,14 +1,14 @@
 {
-  "name": "SENU-MD",
+  "name": "DIL-BOT",
   "description": "Javascript WhatsApp bot made by Aadil",
   "logo": "https://files.catbox.moe/neni8p.jpg",
-  "keywords": ["SENU-MD"],
+  "keywords": ["DIL-BOT"],
   "success_url": "/",
 
     "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "0qRUFJYT#WUVe9Pk1pVhGtJyh6hhzPR6rytSQwVU20bCvu7TSB-U",
+      "description": "AqB0STjI#Efxnkfj7Sbbw8qKWRXVSaOvF9-_ps605s2tQ0hFyeyc",
       "required": true,
       "value": ""
     },  
