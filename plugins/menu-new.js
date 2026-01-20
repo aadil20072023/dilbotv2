@@ -401,7 +401,7 @@ cmd({
                                 await conn.sendMessage(
                                     senderID,
                                     {
-                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/3y5w8z.jpg' },
+                                        image: { url: config.MENU_IMAGE_URL || 'https://github.com/aadil20072023/dilbot/blob/main/images/welcome_dilbot.png?raw=true' },
                                         caption: selectedMenu.content,
                                         contextInfo: contextInfo
                                     },
