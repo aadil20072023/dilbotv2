@@ -15,7 +15,7 @@ cmd({
         // Count total commands
         const totalCommands = Object.keys(commands).length;
         
-        const menuCaption = `╭━━━〔 *DIL-BOT*  by *AGRAZE*〕━━━┈⊷
+        const menuCaption = `╭━━━〔 *DIL-BOT* by *AGRAZE*〕━━━┈⊷
 │ ✓ 𝐎ᴡɴᴇʀ : *Aadil*
 │ ✓ 𝐁ᴀɪʟᴇʏꜱ : *Multi Device*
 │ ✓ 𝐓ʏᴘᴇ : *NodeJs*
