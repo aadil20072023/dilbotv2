@@ -1,12 +1,12 @@
 {
-  "name": "KHAN-MD",
+  "name": "DIL-BOT",
   "version": "5.0.0",
-  "description": "A WhatsApp Bot Created By JawadTechX",
+  "description": "A WhatsApp Bot Created By Aadil",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name KHAN-MD",
-    "stop": "pm2 stop KHAN-MD",
-    "restart": "pm2 restart KHAN-MD"
+    "stop": "pm2 stop DIL-BOT",
+    "restart": "pm2 restart DIL-BOT"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "7.0.0-rc.9",
@@ -66,7 +66,7 @@
     "ws": "^8.17.1",
     "yargs": "^17.6.0",
     "yargs-parser": "^21.1.1",
-    "body-parser": "^1.20.2",
-    "bochilteam/scraper": "^5.0.1"
+    "body-parser": "^1.20.2"
+   
   }
 }
