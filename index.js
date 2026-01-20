@@ -1,4 +1,4 @@
-require("./scripts/setup-ytdlp");
+
 
 
 const {
