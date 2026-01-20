@@ -1,6 +1,6 @@
 {
   "name": "SENU-MD",
-  "description": "Javascript WhatsApp bot made by JESTER TECHX",
+  "description": "Javascript WhatsApp bot made by Aadil",
   "logo": "https://files.catbox.moe/neni8p.jpg",
   "keywords": ["SENU-MD"],
   "success_url": "/",
@@ -8,7 +8,7 @@
     "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
+      "description": "0qRUFJYT#WUVe9Pk1pVhGtJyh6hhzPR6rytSQwVU20bCvu7TSB-U",
       "required": true,
       "value": ""
     },  
@@ -20,13 +20,13 @@
     }, 
       
     "PREFIX": {
-      "description": "paste your bot prefix note! Don't apply null prefix.",
+      "description": ".",
       "required": false,
       "value": "."
     },
     
     "MODE": {
-      "description": "select your bot work type public-private-inbox-group.",
+      "description": "public",
       "required": false,
       "value": "public"
       
